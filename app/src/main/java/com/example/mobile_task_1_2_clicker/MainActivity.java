@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 score ++;
-                if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)<15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
+                if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)>15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
                 {
                     st="а";
                 }
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 score --;
-                if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)<15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
+                if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)>15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
                 {
                     st="а";
                 }
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 score =0;
-                if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)<15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
+                if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)>15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
                 {
                     st="а";
                 }
