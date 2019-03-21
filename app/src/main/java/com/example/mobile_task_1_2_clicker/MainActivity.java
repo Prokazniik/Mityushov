@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     ImageButton mainImg;
 
     private long score = 0;
+    String st;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +34,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 score ++;
-                String s = "Кликов: " + score;
+                if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)<15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
+                {
+                    st="а";
+                }
+                else
+                {
+                    st=" ";
+                }
+                String s = "Вы нажали на кнопку: " + score + " раз" + st;
                 mainText.setText(s.toCharArray(),0, s.length());
             }
         };
@@ -43,7 +53,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 score --;
-                String s = "Кликов: " + score;
+                if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)<15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
+                {
+                    st="а";
+                }
+                else
+                {
+                    st=" ";
+                }
+                String s = "Вы нажали на кнопку: " + score + " раз" + st;
                 mainText.setText(s.toCharArray(),0, s.length());
             }
         };
@@ -54,7 +72,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 score =0;
-                String s = "Кликов: " + score;
+                if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)<15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
+                {
+                    st="а";
+                }
+                else
+                {
+                    st=" ";
+                }
+                String s = "Вы нажали на кнопку: " + score + " раз" + st;
                 mainText.setText(s.toCharArray(),0, s.length());
             }
         };
@@ -65,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 score =666;
-                String s = "Кликов: " + score;
+                String s = "AVE SATAN" + score;
                 mainText.setText(s.toCharArray(),0, s.length());
             }
         };

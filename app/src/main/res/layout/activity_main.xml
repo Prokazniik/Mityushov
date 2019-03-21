@@ -19,7 +19,7 @@
             android:id="@+id/mainText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Кликов: 0"/>
+            android:text="Вы нажали на кнопку: 0 раз"/>
 
         <Button
             android:id="@+id/button"
