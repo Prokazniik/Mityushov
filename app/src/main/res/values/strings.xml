@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">mobile_task_1_2_Clicker</string>
-    <string name="click_me">Нажми меня</string>
-    <string name="Button2">Меня тоже нажми!</string>
-    <string name="Sbros">Сбросить</string>
+    <string name="click_me">+rep</string>
+    <string name="Button2">-rep</string>
+    <string name="Sbros">Стереть</string>
+    <string name="_0">Вы нажали на кнопку: 0 раз</string>
+    <string name="todo">TODO</string>
 </resources>

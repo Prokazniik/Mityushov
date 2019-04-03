@@ -1,11 +1,13 @@
 package com.example.mobile_task_1_2_clicker;
 
+
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -90,8 +92,8 @@ public class MainActivity extends AppCompatActivity {
         View.OnClickListener clickListener4 = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                score =666;
-                String s = "AVE SATAN" + score;
+                score =777;
+                String s = "АМР" + score;
                 mainText.setText(s.toCharArray(),0, s.length());
             }
         };
